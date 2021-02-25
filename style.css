@@ -1,0 +1,39 @@
+.container {
+  border: 20px solit black;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.container > div {
+  padding: 12px;
+  text-align: center;
+  font-size: 2em;
+  color: black;
+  background-color: chartreuse;
+}
+html,
+body {
+  background-color: lightgray;
+  margin: 10px;
+}
+.container > div:nth-child(1) {
+  background-color: lightblue;
+  flex-grow: 300px;
+}
+.container > div:nth-child(2) {
+  background-color: red;
+  flex-grow: 600px;
+}
+.container > div:nth-child(3) {
+  background-color: gray;
+  align-self: 100px;
+}
+.container > div:nth-child(4) {
+  background-color: limegreen;
+}
+.container > div:nth-child(5) {
+  background-color: yellow;
+}
+.blogpost {
+  width: 300px;
+  border: 2px solid black;
+}
